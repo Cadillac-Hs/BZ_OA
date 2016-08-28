@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (3.3.7)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.11)
+  - TCBlobDownload (2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.0)
+  - FMDB
+  - IQKeyboardManager
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension
+  - TCBlobDownload
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
+  TCBlobDownload: 8726f054cc00bb5f66a57bb0c99764842dfa5c9f
+
+PODFILE CHECKSUM: f7fe6fb94ba98a1374b020e4acf37567d7475873
+
+COCOAPODS: 1.0.1

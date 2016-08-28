@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+use_frameworks!
+
+target 'BZ_OA' do
+  pod 'AFNetworking','~>2.6.0'
+  pod 'TCBlobDownload'
+  pod 'FMDB'
+  pod 'MJExtension'
+  pod 'MBProgressHUD', '~>0.9.2'
+  pod 'IQKeyboardManager'
+end

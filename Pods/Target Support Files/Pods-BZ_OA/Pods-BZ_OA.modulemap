@@ -1,0 +1,6 @@
+framework module Pods_BZ_OA {
+  umbrella header "Pods-BZ_OA-umbrella.h"
+
+  export *
+  module * { export * }
+}

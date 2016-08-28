@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OAFileBarButton">
+            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DZu-3y-swP">
+                    <rect key="frame" x="10" y="10" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DZu-3y-swP" secondAttribute="height" multiplier="1:1" id="Zei-PQ-MdX"/>
+                        <constraint firstAttribute="width" constant="24" id="b3L-Lw-e2S"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvm-S9-nCe">
+                    <rect key="frame" x="26" y="2" width="16" height="16"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="QmR-Wh-04D"/>
+                        <constraint firstAttribute="width" constant="16" id="m3d-xQ-lEY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DZu-3y-swP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OBU-b2-LqA"/>
+                <constraint firstItem="yvm-S9-nCe" firstAttribute="leading" secondItem="DZu-3y-swP" secondAttribute="trailing" constant="-8" id="fjR-oY-bg2"/>
+                <constraint firstItem="DZu-3y-swP" firstAttribute="top" secondItem="yvm-S9-nCe" secondAttribute="bottom" constant="-8" id="i41-ng-nfA"/>
+                <constraint firstItem="DZu-3y-swP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lfB-12-URh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="IconView" destination="DZu-3y-swP" id="KOs-cp-gy0"/>
+                <outlet property="badgeLabel" destination="yvm-S9-nCe" id="Wfa-Si-DDy"/>
+            </connections>
+            <point key="canvasLocation" x="19" y="410"/>
+        </view>
+    </objects>
+</document>
